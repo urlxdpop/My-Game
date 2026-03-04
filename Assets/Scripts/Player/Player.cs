@@ -5,62 +5,83 @@ using UnityEngine;
 [SelectionBase]
 [RequireComponent(typeof(KnockBack))]
 [RequireComponent(typeof(Rigidbody2D))]
-public class Player : MonoBehaviour {
-
+public class Player : MonoBehaviour
+{
     public static Player Instance { get; private set; }
     public event EventHandler OnPlayerTakeDamage;
     public event EventHandler OnPlayerDeath;
 
-    private const float MIN_SPEED = 0.1f;
+    private const float MinSpeed = 0.1f;
 
-
-    [SerializeField] private float _speed = 5f;
-    [SerializeField] private int _maxHP = 6;
-    [SerializeField] private float _damageRecoveryTime = 0.5f;
+    [Header("Movement")]
+    [SerializeField] private float speed = 5f;
+    
+    [Header("HP")]
+    [SerializeField] private int maxHp = 6;
+    [SerializeField] private float damageRecoveryTime = 0.5f;
+    
+    [Header("Dash")]
+    [SerializeField] private float dashSpeed = 4;
+    [SerializeField] private float dashTime = 0.2f;
+    [SerializeField] private TrailRenderer trailRenderer;
+    [SerializeField] private float dashCoolDownTime = 0.5f;
 
     private Rigidbody2D _rg;
     private KnockBack _knockBack;
 
-    private bool _isRun = false;
-    private bool _isFlip = false;
+    private bool _isRun;
+    private bool _isFlip;
     private Vector2 _inputVector;
     private int _hp;
     private bool _canTakeDamage = true;
     private bool _isAlive = true;
+    private bool _isDashing;
+    private float _initialSpeed;
 
-    private void Awake() {
+    private void Awake()
+    {
         Instance = this;
         _rg = GetComponent<Rigidbody2D>();
         _knockBack = GetComponent<KnockBack>();
-        _hp = _maxHP;
+        _hp = maxHp;
+        _initialSpeed = speed;
     }
 
-    private void Start() {
+    private void Start()
+    {
         GameInput.Instance.OnPlayerAttack += GameInput_OnPlayerAttack;
+        GameInput.Instance.OnPlayerDash += GameInput_OnPlayerDash;
     }
 
-    private void Update() {
-        _inputVector = GameInput.Instance.GetMovmentAction();
+    private void Update()
+    {
+        _inputVector = GameInput.Instance.GetMovementAction();
     }
 
-    private void FixedUpdate() {
+    private void FixedUpdate()
+    {
         if (!_knockBack.IsGettingKnockBack) _isRun = HandleMovement();
     }
 
-    public bool IsRun() {
+    public bool IsRun()
+    {
         return _isRun;
     }
 
-    public bool IsFlip() {
+    public bool IsFlip()
+    {
         return _isFlip;
     }
 
-    public bool IsAlive() {
+    public bool IsAlive()
+    {
         return _isAlive;
     }
 
-    public void TakeDamage(Transform damageSource, int damage) {
-        if (_canTakeDamage && _isAlive) {
+    public void TakeDamage(Transform damageSource, int damage)
+    {
+        if (_canTakeDamage && _isAlive)
+        {
             _canTakeDamage = false;
             _hp = Mathf.Max(0, _hp -= damage);
             _knockBack.GetKnockedBack(damageSource);
@@ -73,40 +94,80 @@ public class Player : MonoBehaviour {
         DetectDeath();
     }
 
-    public int GetHP() {
+    public int GetHp()
+    {
         return _hp;
     }
-    
-    public int GetMaxHP() {
-        return _maxHP;
+
+    public int GetMaxHp()
+    {
+        return maxHp;
     }
 
-    private void DetectDeath() {
-        if (_hp == 0 && _isAlive) {
-            _isAlive = false;
-            _knockBack.StopKnockBackMovment();
-            GameInput.Instance.DisableMovement();
+    private void DetectDeath()
+    {
+        if (_hp != 0 || !_isAlive) return;
+        _isAlive = false;
+        _knockBack.StopKnockBackMovement();
+        GameInput.Instance.DisableMovement();
 
-            OnPlayerDeath?.Invoke(this, EventArgs.Empty);
-        }
+        OnPlayerDeath?.Invoke(this, EventArgs.Empty);
     }
 
-    private IEnumerator DamageRecoveryRoutine() {
-        yield return new WaitForSeconds(_damageRecoveryTime);
+    private IEnumerator DamageRecoveryRoutine()
+    {
+        yield return new WaitForSeconds(damageRecoveryTime);
         _canTakeDamage = true;
     }
 
-    private bool HandleMovement() {
-        _rg.MovePosition(_rg.position + _inputVector * (_speed * Time.fixedDeltaTime));
+    private bool HandleMovement()
+    {
+        _rg.MovePosition(_rg.position + _inputVector * (speed * Time.fixedDeltaTime));
 
-        if (_inputVector.x > MIN_SPEED) _isFlip = false;
-        else if (_inputVector.x < -MIN_SPEED) _isFlip = true;
+        _isFlip = _inputVector.x switch
+        {
+            > MinSpeed => false,
+            < -MinSpeed => true,
+            _ => _isFlip
+        };
 
-        if (Mathf.Abs(_inputVector.x) > MIN_SPEED || Mathf.Abs(_inputVector.y) > MIN_SPEED) return true;
-        return false;
+        return Mathf.Abs(_inputVector.x) > MinSpeed || Mathf.Abs(_inputVector.y) > MinSpeed;
     }
 
-    private void GameInput_OnPlayerAttack(object sender, EventArgs e) {
+    private void Dash()
+    {
+        if (!_isDashing) StartCoroutine(DashRoutine());
+    }
+
+    private IEnumerator DashRoutine()
+    {
+        _isDashing = true;
+        speed *= dashSpeed;
+        trailRenderer.enabled = true;
+
+        yield return new WaitForSeconds(dashTime);
+
+        trailRenderer.enabled = false;
+        speed = _initialSpeed;
+
+        yield return new WaitForSeconds(dashCoolDownTime);
+
+        _isDashing = false;
+    }
+
+    private static void GameInput_OnPlayerAttack(object sender, EventArgs e)
+    {
         ActiveWeapon.Instance.GetActiveWeapon().Attack();
+    }
+
+    private void GameInput_OnPlayerDash(object sender, EventArgs e)
+    {
+        Dash();
+    }
+
+    private void OnDestroy()
+    {
+        GameInput.Instance.OnPlayerAttack -= GameInput_OnPlayerAttack;
+        GameInput.Instance.OnPlayerDash -= GameInput_OnPlayerDash;
     }
 }

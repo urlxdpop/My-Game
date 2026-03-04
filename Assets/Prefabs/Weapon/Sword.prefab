@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d71bb767b4d8f4418199e36080f40b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 2
+  damage: 2
 --- !u!60 &4696057690916356106
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -158,6 +158,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -179,6 +181,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -227,7 +230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43a030ac7d4bf142bdda696c5e97f5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sword: {fileID: 1995282340164398036}
+  sword: {fileID: 1995282340164398036}
 --- !u!1 &6153230404987701597
 GameObject:
   m_ObjectHideFlags: 0
@@ -282,6 +285,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -303,6 +308,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0

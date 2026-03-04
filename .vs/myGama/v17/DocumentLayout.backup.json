@@ -3,24 +3,64 @@
   "WorkspaceRootPath": "D:\\Nikita\\Unity\\myProject\\myGama\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|d:\\nikita\\unity\\myproject\\mygama\\assets\\scripts\\misc\\selfdestroyvfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\misc\\selfdestroyvfx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|d:\\nikita\\unity\\myproject\\mygama\\assets\\scripts\\misc\\flashblink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\misc\\flashblink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|d:\\nikita\\unity\\myproject\\mygama\\assets\\scripts\\plants\\destructibleplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plants\\destructibleplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\plants\\destructiblrplantvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\plants\\destructiblrplantvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Plants\\DestructiblePlants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Plants\\DestructiblePlants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\weapon\\sword\\swordslashvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\sword\\swordslashvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\enemy\\enemyvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\player\\playervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\weapon\\sword\\swordvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\sword\\swordvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\player\\hp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\hp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\other\\knockback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\other\\knockback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\misc\\flashblink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\misc\\flashblink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\weapon\\activeweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\activeweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\enemy\\enemyentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,36 +71,12 @@
       "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utils\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\player\\playervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\player\\hp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\hp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\enemy\\enemyvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemyvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\weapon\\sword\\swordvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\sword\\swordvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\weapon\\sword\\swordslashvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\sword\\swordslashvisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\weapon\\sword\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\sword\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\enemy\\scriptableobject\\enemyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\scriptableobject\\enemyso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|D:\\Nikita\\Unity\\myProject\\myGama\\assets\\scripts\\weapon\\activeweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98265DE9-B425-A84B-07F0-E34629C05699}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon\\activeweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,62 +85,99 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 248,
+          "DockedWidth": 315,
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FlashBlink.cs",
-              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\misc\\FlashBlink.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\misc\\FlashBlink.cs",
-              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\misc\\FlashBlink.cs",
-              "RelativeToolTip": "Assets\\Scripts\\misc\\FlashBlink.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T11:47:21.128Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KnockBack.cs",
-              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Other\\KnockBack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Other\\KnockBack.cs",
-              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Other\\KnockBack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Other\\KnockBack.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T09:25:47.232Z"
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
-              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Player\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Title": "SelfDestroyVFX.cs",
+              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\misc\\SelfDestroyVFX.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\misc\\SelfDestroyVFX.cs",
+              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\misc\\SelfDestroyVFX.cs",
+              "RelativeToolTip": "Assets\\Scripts\\misc\\SelfDestroyVFX.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T13:01:07.195Z",
+              "WhenOpened": "2026-02-11T09:45:34.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "DestructiblePlant.cs",
+              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Plants\\DestructiblePlant.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Plants\\DestructiblePlant.cs",
+              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Plants\\DestructiblePlant.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Plants\\DestructiblePlant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:37:48.554Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DestructiblePlants.cs",
+              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Plants\\DestructiblePlants.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Plants\\DestructiblePlants.cs",
+              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Plants\\DestructiblePlants.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Plants\\DestructiblePlants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:34:15.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DestructiblrPlantVisual.cs",
+              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Plants\\DestructiblrPlantVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Plants\\DestructiblrPlantVisual.cs",
+              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Plants\\DestructiblrPlantVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Plants\\DestructiblrPlantVisual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T09:31:09.341Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SwordSlashVisual.cs",
               "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Weapon\\Sword\\SwordSlashVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\Sword\\SwordSlashVisual.cs",
               "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Weapon\\Sword\\SwordSlashVisual.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weapon\\Sword\\SwordSlashVisual.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T10:24:41.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
+              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Player\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:01:07.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "EnemySO.cs",
               "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Enemy\\ScriptableObject\\EnemySO.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\ScriptableObject\\EnemySO.cs",
@@ -136,43 +189,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PlayerVisual.cs",
-              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Player\\PlayerVisual.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerVisual.cs",
-              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Player\\PlayerVisual.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerVisual.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "SwordVisual.cs",
+              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Weapon\\Sword\\SwordVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\Sword\\SwordVisual.cs",
+              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Weapon\\Sword\\SwordVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Weapon\\Sword\\SwordVisual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T06:30:59.132Z"
+              "WhenOpened": "2025-06-03T10:25:38.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "GameInput.cs",
               "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\GameInput.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
               "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\GameInput.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T12:18:09.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
+              "Title": "PlayerVisual.cs",
+              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Player\\PlayerVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerVisual.cs",
+              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Player\\PlayerVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerVisual.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:30:59.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "EnemyVisual.cs",
               "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Enemy\\EnemyVisual.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyVisual.cs",
               "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Enemy\\EnemyVisual.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyVisual.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T09:47:06.199Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
+              "Title": "KnockBack.cs",
+              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Other\\KnockBack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Other\\KnockBack.cs",
+              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Other\\KnockBack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Other\\KnockBack.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T09:25:47.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FlashBlink.cs",
+              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\misc\\FlashBlink.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\misc\\FlashBlink.cs",
+              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\misc\\FlashBlink.cs",
+              "RelativeToolTip": "Assets\\Scripts\\misc\\FlashBlink.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T11:47:21.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Utils.cs",
               "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Utils\\Utils.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Utils\\Utils.cs",
@@ -184,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Enemy\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyAI.cs",
@@ -196,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "EnemyEntity.cs",
               "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Enemy\\EnemyEntity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyEntity.cs",
@@ -208,19 +297,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "HP.cs",
               "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Player\\HP.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\HP.cs",
               "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Player\\HP.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\HP.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T10:37:21.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Sword.cs",
               "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Weapon\\Sword\\Sword.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\Sword\\Sword.cs",
@@ -232,19 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SwordVisual.cs",
-              "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Weapon\\Sword\\SwordVisual.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\Sword\\SwordVisual.cs",
-              "ToolTip": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Weapon\\Sword\\SwordVisual.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Weapon\\Sword\\SwordVisual.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T10:25:38.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "ActiveWeapon.cs",
               "DocumentMoniker": "D:\\Nikita\\Unity\\myProject\\myGama\\Assets\\Scripts\\Weapon\\ActiveWeapon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon\\ActiveWeapon.cs",
@@ -257,9 +334,25 @@
           ]
         },
         {
-          "DockedWidth": 248,
+          "DockedWidth": 181,
           "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"

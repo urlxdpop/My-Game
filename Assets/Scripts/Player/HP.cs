@@ -2,35 +2,29 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class HP : MonoBehaviour {
-    [SerializeField] private Image[] _lives;
-    [SerializeField] private Sprite _fullLive;
-    [SerializeField] private Sprite _emptyLive;
+    [SerializeField] private Image[] lives;
+    [SerializeField] private Sprite fullLive;
+    [SerializeField] private Sprite emptyLive;
 
     private void Start() {
-        VisualMaxHP();
+        VisualMaxHp();
     }
 
     private void Update() {
-        VisualCurrentHP();
+        VisualCurrentHp();
     }
 
-    private void VisualMaxHP() {
-        for (int i = 0; i < _lives.Length; i++) {
-            if (i < Player.Instance.GetMaxHP()) {
-                _lives[i].enabled = true;
-            } else {
-                _lives[i].enabled = false;
-            }
+    private void VisualMaxHp() {
+        for (int i = 0; i < lives.Length; i++)
+        {
+            lives[i].enabled = i < Player.Instance.GetMaxHp();
         }
     }
 
-    private void VisualCurrentHP() {
-        for (int i = 0; i < _lives.Length; i++) {
-            if (i < Player.Instance.GetHP()) {
-                _lives[i].sprite = _fullLive;
-            } else {
-                _lives[i].sprite = _emptyLive;
-            }
+    private void VisualCurrentHp() {
+        for (int i = 0; i < lives.Length; i++)
+        {
+            lives[i].sprite = i < Player.Instance.GetHp() ? fullLive : emptyLive;
         }
     }
 }

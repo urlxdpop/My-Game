@@ -1,4 +1,5 @@
-Base path: 'D:/Nikita/Unity/data/6000.0.37f1/Editor/Data', plugins path 'D:/Nikita/Unity/data/6000.0.37f1/Editor/Data/PlaybackEngines'
+Base path: 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data', plugins path 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 
-Cmd: shutdown
+Cmd: initializeCompiler
+

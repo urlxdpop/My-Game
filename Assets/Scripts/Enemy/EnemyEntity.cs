@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(EnemyAI))]
 public class EnemyEntity : MonoBehaviour {
 
-    [SerializeField] private EnemySO _enemySO;
+    [SerializeField] private EnemySO enemySo;
 
     public event EventHandler OnTakeHit;
     public event EventHandler OnDie;
@@ -24,7 +24,7 @@ public class EnemyEntity : MonoBehaviour {
     }
 
     private void Start() {
-        _hp = _enemySO.enemyHealth;
+        _hp = enemySo.enemyHealth;
     }
 
     public void TakeDamage(int damage) {
@@ -50,7 +50,7 @@ public class EnemyEntity : MonoBehaviour {
 
     private void OnTriggerStay2D(Collider2D collision) {
         if (collision.transform.TryGetComponent(out Player player)) {
-            player.TakeDamage(transform, _enemySO.enemyDamageAmount);
+            player.TakeDamage(transform, enemySo.enemyDamageAmount);
         }
     }
 }

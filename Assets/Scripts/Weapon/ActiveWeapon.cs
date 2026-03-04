@@ -19,11 +19,8 @@ public class ActiveWeapon : MonoBehaviour
         return sword;
     }
 
-    private void IsRotate() {
-        if (Player.Instance.IsFlip()) {
-            transform.rotation = Quaternion.Euler(0, 180, 0);
-        } else {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-        }
+    private void IsRotate()
+    {
+        transform.rotation = Quaternion.Euler(0, Player.Instance.IsFlip() ? 180 : 0, 0);
     }
 }

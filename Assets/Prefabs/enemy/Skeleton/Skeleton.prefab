@@ -202,16 +202,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f505a709bb6256545baf47573090cb27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startingState: 1
-  _roamingDistanceMax: 7
-  _roamingDistanceMin: 3
-  _roamingTimerMax: 10
-  _isChasingEnemy: 1
-  _chasingDistance: 4
-  _chasingSpeedBoost: 1.5
-  _isAttackEnemy: 1
-  _attackDistance: 2
-  _attackRate: 2
+  startingState: 0
+  roamingDistanceMax: 7
+  roamingDistanceMin: 3
+  roamingTimerMax: 2
+  isChasingEnemy: 0
+  chasingDistance: 4
+  chasingSpeedBoost: 1.5
+  isAttackEnemy: 0
+  attackDistance: 1
+  attackRate: 2
 --- !u!114 &2122967701139715565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ae2bf22dbbde324daf3d1f5971fd458, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemySO: {fileID: 11400000, guid: 16cda2370a77d34478da4d655b9be3bd, type: 2}
+  enemySo: {fileID: 11400000, guid: 16cda2370a77d34478da4d655b9be3bd, type: 2}
 --- !u!1 &3465185093878111407
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,6 +277,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -298,6 +300,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
@@ -367,6 +370,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -388,6 +393,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -436,6 +442,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f76d9c39fd01f94098e5e553e54552c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyAI: {fileID: 114547968535514803}
-  _enemyEntity: {fileID: 2122967701139715565}
-  _enemyShadow: {fileID: 3465185093878111407}
+  enemyAI: {fileID: 114547968535514803}
+  enemyEntity: {fileID: 2122967701139715565}
+  enemyShadow: {fileID: 3465185093878111407}

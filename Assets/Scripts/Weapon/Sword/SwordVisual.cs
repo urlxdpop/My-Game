@@ -1,22 +1,27 @@
 using UnityEngine;
 
 public class SwordVisual : MonoBehaviour {
-    [SerializeField] private Sword _sword;
+    [SerializeField] private Sword sword;
 
     private Animator _animator;
-    private const string ATTACK = "Attack";
+    private const string Attack = "Attack";
 
+    private static readonly int Attack1 = Animator.StringToHash(Attack);
+    
     private void Awake() {
         _animator = GetComponent<Animator>();
     }
 
     private void Start() {
-        _sword.OnSwordSwing += Sword_OnSwordSwing;
+        sword.OnSwordSwing += Sword_OnSwordSwing;
     }
 
     private void Sword_OnSwordSwing(object sender, System.EventArgs e) {
-        _animator.SetTrigger(ATTACK);
+        _animator.SetTrigger(Attack1);
     }
 
+    private void OnDestroy() {
+        sword.OnSwordSwing -= Sword_OnSwordSwing;
+    }
 
 }

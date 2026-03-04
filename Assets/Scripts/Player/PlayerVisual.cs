@@ -2,17 +2,20 @@ using UnityEngine;
 
 public class PlayerVisual : MonoBehaviour
 {
+    private Animator _animator;
+    private SpriteRenderer _sprite;
 
-    private Animator animator;
-    private SpriteRenderer sprite;
-
-    private const string IS_RUN = "isRun";
-    private const string TAKE_DAMAGE = "TakeDamage";
-    private const string IS_DIE = "IsDie";
+    private const string IsRun = "isRun";
+    private const string TakeDamage = "TakeDamage";
+    private const string IsDie = "IsDie";
+    
+    private static readonly int Die = Animator.StringToHash(IsDie);
+    private static readonly int Damage = Animator.StringToHash(TakeDamage);
+    private static readonly int Run = Animator.StringToHash(IsRun);
 
     private void Awake() {
-        animator = GetComponent<Animator>();
-        sprite = GetComponent<SpriteRenderer>();
+        _animator = GetComponent<Animator>();
+        _sprite = GetComponent<SpriteRenderer>();
     }
 
     private void Start() {
@@ -21,15 +24,21 @@ public class PlayerVisual : MonoBehaviour
     }
 
     private void Player_OnPlayerDeath(object sender, System.EventArgs e) {
-        animator.SetBool(IS_DIE, true);
+        _animator.SetBool(Die, true);
     }
 
     private void Player_OnPlayerTakeDamage(object sender, System.EventArgs e) {
-        animator.SetTrigger(TAKE_DAMAGE);
+        _animator.SetTrigger(Damage);
     }
 
     private void Update() {
-        animator.SetBool(IS_RUN, Player.Instance.IsRun());
-        sprite.flipX = Player.Instance.IsFlip();
+        _animator.SetBool(Run, Player.Instance.IsRun());
+        _sprite.flipX = Player.Instance.IsFlip();
+    }
+
+    private void OnDestroy()
+    {
+        Player.Instance.OnPlayerTakeDamage -= Player_OnPlayerTakeDamage;
+        Player.Instance.OnPlayerDeath -= Player_OnPlayerDeath;
     }
 }
